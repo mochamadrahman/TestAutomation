@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="72738" started-at="2021-05-29T12:51:54 ICT" finished-at="2021-05-29T12:53:06 ICT">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="42695" started-at="2021-05-29T12:51:54 ICT" finished-at="2021-05-29T12:52:36 ICT">
+      <class name="com.ionicpartners.test.TestBlog">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.ionicpartners.test.TestBlog@67205a84]" name="setUpTest" is-config="true" duration-ms="2257" started-at="2021-05-29T12:51:54 ICT" finished-at="2021-05-29T12:51:56 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="testBlog()[pri:0, instance:com.ionicpartners.test.TestBlog@67205a84]" name="testBlog" duration-ms="35528" started-at="2021-05-29T12:51:56 ICT" finished-at="2021-05-29T12:52:31 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlog -->
+        <test-method status="PASS" signature="tesrDownTest()[pri:0, instance:com.ionicpartners.test.TestBlog@67205a84]" name="tesrDownTest" is-config="true" duration-ms="4866" started-at="2021-05-29T12:52:31 ICT" finished-at="2021-05-29T12:52:36 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDownTest -->
+      </class> <!-- com.ionicpartners.test.TestBlog -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="29975" started-at="2021-05-29T12:52:36 ICT" finished-at="2021-05-29T12:53:06 ICT">
+      <class name="com.ionicpartners.test.TestAbout">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.ionicpartners.test.TestAbout@3712b94]" name="setUpTest" is-config="true" duration-ms="1336" started-at="2021-05-29T12:52:36 ICT" finished-at="2021-05-29T12:52:38 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="testAbout()[pri:0, instance:com.ionicpartners.test.TestAbout@3712b94]" name="testAbout" duration-ms="23705" started-at="2021-05-29T12:52:38 ICT" finished-at="2021-05-29T12:53:01 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAbout -->
+        <test-method status="PASS" signature="tesrDownTest()[pri:0, instance:com.ionicpartners.test.TestAbout@3712b94]" name="tesrDownTest" is-config="true" duration-ms="4931" started-at="2021-05-29T12:53:01 ICT" finished-at="2021-05-29T12:53:06 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDownTest -->
+      </class> <!-- com.ionicpartners.test.TestAbout -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

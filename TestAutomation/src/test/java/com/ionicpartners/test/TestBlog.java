@@ -19,8 +19,7 @@ public class TestBlog {
 
 		System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
 		driver = new ChromeDriver();
-
-
+		
 	}
 	@Test
 	public void testBlog() {
@@ -30,7 +29,7 @@ public class TestBlog {
 		HomePage homePage = new HomePage(driver);
 		BlogPage blogPage = new BlogPage(driver);
 		
-		System.out.println("     Test 1      ");
+		System.out.println("   Test 1 Blog   ");
 		System.out.println("=================");
 
 //		open test page
@@ -55,6 +54,7 @@ public class TestBlog {
 
 // 		This  will scroll down the page by  1000 pixel vertical		
 		js.executeScript("window.scrollBy(0,1000)");
+		sleep(3000);
 		
 //		verify element LatestArticles available
 		blogPage.LatestArticlesAvailable();
@@ -65,7 +65,7 @@ public class TestBlog {
 
 //      Redirect to HomePage
 		blogPage.BacktoHomePage();
-		System.out.println("Back to Home Page");
+		System.out.println("Back to Home Page\n");
 
 		
 	}

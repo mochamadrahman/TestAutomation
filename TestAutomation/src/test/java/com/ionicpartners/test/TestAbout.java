@@ -32,7 +32,7 @@ public class TestAbout {
 		AboutPage aboutPage = new AboutPage(driver);
 		TwitterPage twitterPage = new TwitterPage(driver);
 
-		System.out.println("     Test 2      ");
+		System.out.println("  Test 2 About   ");
 		System.out.println("=================");
 
 //		open test page
@@ -57,6 +57,7 @@ public class TestAbout {
 
 //		This will scroll the web page till end.		
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+		sleep(3000);
 
 //		click element Twitter 
 		aboutPage.clickTwitter();
